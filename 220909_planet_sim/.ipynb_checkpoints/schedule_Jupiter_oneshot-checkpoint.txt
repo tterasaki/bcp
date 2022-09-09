@@ -1,0 +1,4 @@
+#Site            Telescope        Latitude [deg] Longitude [deg]   Elevation [m]
+ Atacama         LAT                     -22.958         -67.786          5200.0
+#      Start time UTC        Stop time UTC      Start MJD       Stop MJD Rotation Patch name                            Az min   Az max       El   R/S  Sun el1  Sun az1  Sun el2  Sun az2 Moon el1 Moon az1 Moon el2 Moon az2 Phase  Pass Sub
+ 2023-01-01 00:00:00  2023-01-01 00:46:30    59945.000000   59945.032292     0.00 Jupiter                               279.78   309.28    42.74 S        -9.02   240.16   -18.02   234.22    54.44   358.40    52.27   339.98  0.70     0   0

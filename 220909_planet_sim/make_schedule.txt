@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#/home/tterasaki/.local/lib/python3.7/site-packages/toast/scripts/toast_ground_schedule.py \
+    --site-lat '-22.958064' \
+    --site-lon "-67.786222" \
+    --site-alt 5200 \
+    --site-name Atacama \
+    --telescope LAT \
+    --start "2023-01-01 00:00:00" \
+    --stop "2023-01-02 00:00:00" \
+    --patch-coord C \
+    --patch Jupiter,SSO,1,10\
+    --el-min 40 \
+    --el-max 60 \
+    --ces-max-time 3600 \
+    --gap-s 86400 \
+    --gap-small-s 86400 \
+    --sun-avoidance-angle 20 \
+    --out schedule_Jupiter_oneshot.txt \
+    --debug
